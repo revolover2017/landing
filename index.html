@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bootstrap In Practice - Landing Page Example</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<!-- Bootstrap -->
+	<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
+	<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet" />
+
+	<link href="https://fonts.googleapis.com/css?family=Abel|Open+Sans:400,600" rel="stylesheet" />
+
+	<style>
+
+		/* http://css-tricks.com/perfect-full-page-background-image/ */
+		html {
+			background: url(img/streetwear-street-scene-person.jpg) no-repeat center center fixed; 
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+		}
+
+		body {
+			padding-top: 20px;
+			font-size: 16px;
+			font-family: "Open Sans",serif;
+			background: transparent;
+		}
+
+		h1 {
+			font-family: "Abel", Arial, sans-serif;
+			font-weight: 400;
+			font-size: 40px;
+		}
+
+		/* Override B3 .panel adding a subtly transparent background */
+		.panel {
+			background-color: rgba(255, 255, 255, 0.75);
+		}
+
+		.margin-base-vertical {
+			margin: 40px 0;
+		}
+
+        .margin-small-vertical {
+            margin: 20px 0;
+        }
+
+        .btn-primary {
+            background-color: #f15a24;
+            color: #ffffff;
+            border-color: #f15a24;
+        }
+
+        .btn-primary:hover {
+            background-color: #f15a24;
+            border-color: #f15a24;
+        }
+	</style>
+
+</head>
+<body>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 col-md-offset-3 panel panel-default">
+
+				<h1 class="margin-base-vertical">Hai il mondo contro?</h1>
+
+				<p>
+					Lo so, capita a tutti. Una giornata <b>nera</b>, tutto va storto, non trovo parcheggio, il mio capo pensa che sia un buono a nulla.
+				</p>
+
+                <p>
+                    Ma non è sempre così.
+                </p>
+ 
+                <p>
+                    Capita anche che in una giornata buia qualcosa si <b>accenda</b>, qualcuno mi ha fatto un complimento, mi ha pagato il caffè, o semplicemente mi ha sorriso. Una gentilezza inaspettata e insperata.
+				</p>
+
+				<p>
+					Revolover è il nostro modo per avere più giornate belle che nere.
+				</p>
+
+				<form class="margin-base-vertical" action="//revolover.us16.list-manage.com/subscribe/post?u=aa87cd22e282915989231424b&amp;id=ef0c9a9b82" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" novalidate>
+					<p class="input-group">
+						<span class="input-group-addon"><span class="icon-envelope"></span></span>
+                        <input type="email" value="" name="EMAIL" class="form-control input-lg" id="mce-EMAIL" placeholder="mario.rossi@esempio.com">
+					</p>
+					<p class="text-center">
+						<button type="submit" class="btn btn-primary btn-lg">Ok, voglio saperne di più!</button>
+					</p>
+					<p class="help-block text-center"><small>Niente spam. Disiscriviti quando vuoi.</small></p>
+				</form>
+
+				<div class="margin-small-vertical text-right">
+					<small class="text-muted">Photo via <a href="https://visualhunt.com/re/79d331">Visual Hunt</a></small>
+				</div>
+
+			</div><!-- //main content -->
+		</div><!-- //row -->
+	</div> <!-- //container -->
+
+</body>
+</html>
